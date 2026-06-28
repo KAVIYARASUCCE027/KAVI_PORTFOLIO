@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Linkedin, Code2, ChefHat } from "lucide-react";
+import { Github, Linkedin, Code2 } from "lucide-react";
 import { siteConfig } from "@/utils/data";
 
 export function Footer() {
@@ -8,7 +8,7 @@ export function Footer() {
     { icon: Github, href: siteConfig.social.github, label: "GitHub" },
     { icon: Linkedin, href: siteConfig.social.linkedin, label: "LinkedIn" },
     { icon: Code2, href: siteConfig.social.leetcode, label: "LeetCode" },
-    { icon: ChefHat, href: siteConfig.social.codechef, label: "CodeChef" },
+
   ];
 
   return (
